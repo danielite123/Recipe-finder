@@ -30,7 +30,7 @@ A responsive recipe search interface built with **JavaScript**, **Vite**, and **
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/recipe-finder.git
+git clone https://github.com/danielite123/Recipe-finder.git
 cd recipe-finder
 
 # Install dependencies
