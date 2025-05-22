@@ -1,12 +1,40 @@
-# React + Vite
+# 🍽️ Recipe Finder (WIP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive recipe search interface built with **JavaScript**, **Vite**, and **TailwindCSS**. The goal is to create a sleek, user-friendly platform for discovering recipes by keyword — starting with a mobile-first navigation experience.
 
-Currently, two official plugins are available:
+> ⚠️ **Status**: Work in Progress  
+> Only the **Navbar** and **MobileNavbar** are implemented at this stage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📱 Features (Planned)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Recipe search functionality with live filtering  
+- 🧭 Mobile-first, responsive navigation  
+- 🍲 Clean display of recipe cards with images and titles  
+- ❤️ Save and favorite recipes  
+- 🔪 Filter by ingredients or dietary preferences
+
+---
+
+## ✅ Tech Stack
+
+- ⚡ **Vite** – Fast build tool  
+- 🧠 **JavaScript** – Core logic  
+- 🎨 **TailwindCSS** – Utility-first styling  
+- 📦 **Yarn** – Dependency manager
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/recipe-finder.git
+cd recipe-finder
+
+# Install dependencies
+yarn install
+
+# Run the dev server
+yarn dev
