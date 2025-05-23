@@ -1,5 +1,6 @@
 import MobileNav from "./components/mobile-nav";
 import Navbar from "./components/navbar";
+import RecipeSection from "./components/recipe.component";
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
         <Navbar />
       </div>
 
-      <main className="flex-grow overflow-auto bg-bright-grey">
-        {/* Other components/content go here */}
+      <main className="flex-grow overflow-auto bg-white-smoke p-4 px-5 md:px-18">
+        <RecipeSection />
       </main>
 
       <div className="sticky bottom-0 z-50">

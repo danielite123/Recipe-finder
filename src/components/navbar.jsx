@@ -2,7 +2,7 @@ import { Heart, Search, UserRound } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row items-center justify-between font-urbanist bg-primary min-h-16 p-4 md:px-10 lg:px-18 w-full">
+    <div className="flex flex-row items-center justify-between font-urbanist bg-primary min-h-16 p-4 px-5 md:px-10 lg:px-18 w-full">
       <div className="w-full flex flex-col gap-3 items-center md:items-start text-center md:text-left">
         <h1 className="font-bold text-[26px]">
           Recipe <span className="font-medium">finder</span>
@@ -22,10 +22,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex flex-row items-center gap-8">
-        <Search />
-        <Heart />
-        <UserRound />
+      <div className="hidden md:flex flex-row items-center gap-8 text-white">
+        <Search strokeWidth={1} />
+        <Heart strokeWidth={1} />
+        <UserRound strokeWidth={1} />
       </div>
     </div>
   );

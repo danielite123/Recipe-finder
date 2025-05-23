@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const MobileNav = () => {
-  const [activeIndex, setActiveIndex] = useState(2); // Globe icon is active by default
+  const [activeIndex, setActiveIndex] = useState(0); // Globe icon is active by default
 
   const navItems = [
     { icon: "fi fi-rr-home", index: 0 },
@@ -12,7 +12,7 @@ const MobileNav = () => {
   ];
 
   return (
-    <div className="relative w-full bg-gray-50 border-t border-gray-200 min-h-20 px-6 py-3 md:hidden flex items-center justify-between">
+    <div className="relative w-full bg-white border-t border-gray-200 min-h-20 px-6 py-3 md:hidden flex items-center justify-between">
       {navItems.map((item) => (
         <button
           key={item.index}
@@ -20,14 +20,14 @@ const MobileNav = () => {
           className="flex items-center justify-center transition-all duration-200"
         >
           {item.isCenter ? (
-            <div className="absolute -top-12 w-24  h-24 flex justify-center items-center rounded-full transition-all duration-200 bg-bright-grey text-white">
+            <div className="absolute -top-12 w-24  h-24 flex justify-center items-center rounded-full transition-all duration-200 bg-white-smoke text-white">
               <i
                 className={`${
                   item.icon
                 } text-3xl rounded-full p-5 flex justify-center ${
                   activeIndex === item.index
-                    ? "bg-white text-primary"
-                    : "bg-primary"
+                    ? "bg-primary"
+                    : "bg-white text-primary"
                 }`}
               ></i>
             </div>
